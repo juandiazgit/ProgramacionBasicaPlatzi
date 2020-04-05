@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tablas de verdad</title>
+</head>
+<body>
+    <h3>Ejemplos utilizando la lógica con tablas de verdad.</h3>
+    <script type="text/javascript">
+    lluvia = true;
+    sombrilla = true;
+    bajo_techo = false;
+
+    if (lluvia) 
+    {
+        if (sombrilla ^ bajo_techo) 
+        {
+            alert("Estás haciendo lo correcto !");    
+        }
+        else 
+        {
+            alert("¿Dónde te equivocaste ?");    
+        }
+    }
+    else    
+    {
+        alert("No necesitas sombrilla !");
+    }
+    </script>
+</body>
+</html>
